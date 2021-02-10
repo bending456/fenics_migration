@@ -31,7 +31,8 @@ restingCellRatio = 1
 
 ## Extract the simulation condition 
 path = '../utility_ver1/'
-singularity = 'singularity exec /home/bending456/singularity-img/fenics_ben_2019.img python3 '
+#singularity = 'singularity exec /home/bending456/singularity-img/fenics_ben_2019.img python3 '
+singularity = 'python3 '
 
 # step 1: generate the coordinates of cells
 if jobcontinued == 0:
